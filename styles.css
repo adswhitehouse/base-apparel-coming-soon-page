@@ -106,6 +106,10 @@ textarea:not([rows]) {
   color: var(--pink-1);
 }
 
+.pink-2 {
+  color: var(--pink-2);
+}
+
 /* Background Colors */
 .white-bg {
   background-color: var(--white);
@@ -134,6 +138,11 @@ textarea:not([rows]) {
   font-size: var(--fs-2);
   font-weight: var(--fw-2);
   line-height: var(--lh-2);
+}
+
+.tp-4 {
+  font-size: var(--fs-3);
+  font-weight: var(--fw-2);
 }
 
 /* Main */
@@ -235,12 +244,22 @@ form button {
   transform: translateY(-50%);
   right: 7rem;
   opacity: 0;
-  transition: opacity 0.25s;
+}
+
+.error-msg {
+  position: absolute;
+  bottom: -4rem;
+  left: 2rem;
+  opacity: 0;
 }
 
 /* Error Visibility */
 .toggle-error {
   opacity: 1;
+}
+
+.error-border {
+  border: 2px solid var(--pink-2);
 }
 
 /* Media Query */

@@ -16,6 +16,7 @@
   <body class="ff-primary">
     <!-- Main -->
     <main>
+      <!-- Text -->
       <section class="text">
         <img src="./images/logo.svg" alt="Company Logo" />
         <h1 class="tp-1 pink-1">
@@ -31,17 +32,30 @@
           launch deals.
         </p>
         <form>
-          <input class="tp-3 brown" type="email" placeholder="Email Address" />
-          <button>
+          <input
+            class="tp-3 brown jsInput"
+            type="email"
+            placeholder="Email Address"
+          />
+          <button class="jsFormBtn">
             <img
               src="./images/icon-arrow.svg"
               alt="More than sign to signify email submission on button click"
             />
           </button>
-          <img class="error" src="./images/icon-error.svg" alt="Error icon" />
+          <img
+            class="error jsError"
+            src="./images/icon-error.svg"
+            alt="Error icon"
+          />
+          <p class="tp-4 pink-2 error-msg jsErrorMsg">
+            Please provide a valid email
+          </p>
         </form>
+        <!-- Image -->
       </section>
       <section class="main-img"></section>
     </main>
+    <script src="./script.js"></script>
   </body>
 </html>
